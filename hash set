@@ -1,0 +1,15 @@
+import java.util.HashSet;
+
+public class hash_set {
+    public static void main(String[] args) {
+        HashSet<String> L = new HashSet<String>();
+        L.add("abc");
+        L.add("cde");
+        L.add("fgh");
+        System.out.println(L);
+        L.remove("abc");
+        System.out.println("after removing:" + L);
+        L.clear();
+        System.out.println("List is clear:" + L);
+    }
+}
